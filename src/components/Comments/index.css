@@ -1,0 +1,75 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+}
+
+.heading {
+  color: black;
+  font-size: 25px;
+}
+.input-main-container {
+  display: flex;
+  border-top: none;
+
+  justify-content: space-between;
+  width: 500px;
+}
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+}
+.name-input {
+  border: 1px solid #dee0e3;
+  border-radius: 2px;
+  background: transparent;
+}
+.Button {
+  color: white;
+  border: none;
+  background-color: #0b69ff;
+  border-radius: 3px;
+  padding: 9px;
+  width: 110px;
+  margin-bottom: 10px;
+}
+.label-style {
+  color: #1e293b;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.comments-img {
+  height: 200px;
+  width: 200px;
+}
+.comments-input {
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #dee0e3;
+  display: flex;
+  flex-direction: column;
+}
+
+.count-comments {
+  color: #1e293b;
+  font-size: 12px;
+}
+.count-style {
+  background-color: #0b69ff;
+  padding: 5px;
+  border: none;
+  color: white;
+  margin-right: 10px;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
